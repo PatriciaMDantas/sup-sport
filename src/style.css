@@ -5,12 +5,16 @@ h1 {
 }
 
 body {
-  background: linear-gradient(
-    109.6deg,
-    rgb(80, 151, 147) 11.2%,
-    rgb(154, 214, 212) 55.4%,
-    rgb(255, 233, 171) 100.2%
-  );
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+img {
+  width: 600px;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text {
@@ -18,4 +22,20 @@ body {
   font-weight: lighter;
   font-style: oblique;
   text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
 }
