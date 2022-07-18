@@ -1,0 +1,21 @@
+h1 {
+  color: blueviolet;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(80, 151, 147) 11.2%,
+    rgb(154, 214, 212) 55.4%,
+    rgb(255, 233, 171) 100.2%
+  );
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-style: oblique;
+  text-align: center;
+}
